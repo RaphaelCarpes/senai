@@ -1,9 +1,11 @@
 programa {
   funcao inicio() {
-    inteiro i = 0
-    enquanto( i <= 1998){
-      i = i+2
-      escreva(i,"\n")
-    }
+        inteiro numero,soma=0
+    faca{
+    escreva("Informe um número: ")
+    leia(numero)
+    soma+= numero
+    }enquanto(numero !=0)
+    escreva("O resultado da soma é: ", soma)
   }
 }
